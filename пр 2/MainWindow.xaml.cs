@@ -79,6 +79,7 @@ namespace Pract2_2._0
         private void Сохранить_Click(object sender, RoutedEventArgs e)
         {
             if (mas != null) LibMas.Class1.Save(mas);
+
         }
         private void Открыть_Click(object sender, RoutedEventArgs e)
         {
