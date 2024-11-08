@@ -1,0 +1,30 @@
+﻿<Window x:Class="Pract2_2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pract2_2._0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu VerticalAlignment="Top">
+            <MenuItem Header="Файл">
+                <MenuItem Header="О программе" Click="Опрограмме_Click"/>
+                <MenuItem Header="Сохранить" Click="Сохранить_Click"/>
+                <MenuItem Header="Открыть" Click="Открыть_Click"/>
+                <Separator></Separator>
+            </MenuItem>
+            <MenuItem Header="Выход" Click="Выход_Click"/>
+        </Menu>
+        <TextBox x:Name="zn1" HorizontalAlignment="Left" Margin="33,99,0,0" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" MaxLength="9"/>
+        <TextBox x:Name="zn3" HorizontalAlignment="Left" Margin="162,99,0,0" Height="51" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" MaxLength="9"/>
+        <Button Content="очистить" HorizontalAlignment="Left" Height="23" Margin="33,194,0,0" VerticalAlignment="Top" Width="110" Click="Button2_Click" IsDefault="True"/>
+        <Label Content="Некоторе число N" HorizontalAlignment="Left" Margin="33,68,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Массив" HorizontalAlignment="Left" Margin="162,68,0,0" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="zn2" HorizontalAlignment="Left" Margin="289,99,0,0" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" MaxLength="9" IsEnabled="False"/>
+        <Label Content="Сумма" HorizontalAlignment="Left" Margin="289,73,0,0" VerticalAlignment="Top" Width="145"/>
+        <Button Content="Рассчитать" HorizontalAlignment="Left" Height="23" Margin="33,127,0,0" VerticalAlignment="Top" Width="110" Click="Button1_Click" IsDefault="True"/>
+        <Button Content="Заполнить" HorizontalAlignment="Left" Height="23" Margin="33,155,0,0" VerticalAlignment="Top" Width="110" Click="Button3_Click" IsDefault="True"/>
+    </Grid>
+</Window>
+
